@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Seja Bem Vindo ao TriXer</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Play&display=swap" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+    
+    <div class="allHome">
+        <div class="allTwo container">
+            <nav class="navbar corNav">
+                <img src="imgs/logo.png" width="35" height="35" class="d-inline-block align-top p-absolute" alt="">
+                <a class="navbar-brand corLetra" href="#">
+                    TriXer
+                </a>
+            </nav>
+            <br>
+            
+            <div class="container-fluid row mt-5 ml-1">
+                
+                <div class="col-md-6 col-sm-12 col-12 mt-4">
+                
+                    <img class="imgLogin img-fluid d-none d-sm-block" src="imgs/celulares.png">
+                
+                </div>
+ 
+                <div class="col-md-6 col-sm-12 col-12 col-mt-5">
+                    <form class="col-md-8 col-sm-12 col-12 formLogin" action="#">            
+                        <h2 class="ml-2 mt-4 h2Login">Acesse sua Conta</h2><br>
+
+                        <div class="form-group">
+                            <label for="emailLogin">Email</label>
+                            <input type="email" class="form-control inputsX" id="emailLogin">
+                        </div>
+                        <div class="form-group">
+                            <label for="senhaLogin">Senha</label>
+                            <input type="password" class="form-control inputsX" id="senhaLogin">
+                        </div>
+                        <button type="submit" class="btn btn-x form-control btn-x">Entrar</button>
+                        <small class="ml-2">Não possui uma conta? <a href="#" data-toggle="modal" data-target="#ExemploModalCentralizado">Cadastre-se</a></small>
+                    </form>
+
+                    <div class="modal fade" id="ExemploModalCentralizado" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modalBox" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="TituloModalCentralizado">Criar uma Conta</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                    <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <form>
+                                    <div class="modal-body">
+
+                                        <div class="form-row">
+                                            <div class="col">
+                                                <label for="nomeCad">Nome</label>
+                                                <input type="text" class="form-control inputsX" id="nomeCad">
+                                            </div>
+                                            <div class="col">
+                                            <label for="sNomeCad">Sobrenome</label>
+                                                <input type="text" class="form-control inputsX" id="sNomeCad">
+                                            </div>
+                                        </div>
+                                        <br>
+                                        <div class="form-group">
+                                            <label for="emailCad">Email ou Telefone</label>
+                                            <input type="email" class="form-control inputsX" id="emailCad">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="senhaCad">Senha</label>
+                                            <input type="password" class="form-control inputsX" id="senhaCad">
+                                        </div>
+                                        <center>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="cadRadio2" value="opcao1">
+                                                <label class="form-check-label" for="cadRadio2">Masculino</label>
+                                            </div>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="cadRadio2" value="opcao2">
+                                                <label class="form-check-label" for="cadRadio2">Feminino</label>
+                                            </div>
+                                        </center><br>
+                                        <div class="form-group">
+                                            <label for="dataCad">Data de Nascimento</label>
+                                            <input type="date" class="form-control inputsX" id="dataCad">
+                                        </div>
+
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="cadCheck">
+                                            <label class="form-check-label" for="cadCheck">
+                                                Li e concordo com os <a href="#">Termos de Uso</a>.
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="reset" class="btn btn-secondary">Limpar</button>
+                                        <button type="submit" class="btn btn-x">Cadastrar</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+    
+    <footer class="text-center pt-3 text-white"> &copy; TriXer 2019 - Todos os Direitos Reservados </footer>
+
+    <script src="js/jQuery.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+</body>
+</html>
